@@ -1,0 +1,96 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+header{
+    background-color: #9393eb;
+    position: fixed;
+    width: 100%;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    width: 1200px;
+    margin: auto;
+    padding: 15px 0px;
+    align-items: center;
+    overflow: hidden;
+}
+header .container .logo{
+     width: 20%;
+     flex: 0 0 auto;
+}
+header .container .logo a{}
+header .container .logo a img{}
+header .container nav{
+    width: 80%;
+    flex: 0 0 auto;
+}
+header .container nav ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    overflow: hidden;
+}
+header .container nav ul li{
+    list-style: none;
+    flex: 0 0 auto;
+}
+header .container nav ul li a{
+    font-size: 30px;
+    font-weight: 500;
+    color: #232323;
+    text-decoration: none;
+    padding: 15px;
+}
+
+section{
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.yellow{
+    background-image: url(../images/portfolio-item57.jpg);
+}
+.green{ 
+    background-image: url(../images/portfolio-item58.jpg);
+}
+.pink{
+    background-image: url(../images/portfolio-item59.jpg);
+ }
+.seagreen{
+    background-image: url(../images/portfolio-item60.jpg);
+}
+.creame{
+    background-image: url(../images/portfolio-item61.jpg);
+}
+
+section .container{
+    height: 100%;
+    padding-bottom: 150px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+}
+section .container h2{
+    color: black;
+    background: white;
+    padding: 15px 40px;
+    font-weight: 600;
+    flex: 0 0 auto;
+    }
+section .container a{
+    font-size: 30px;
+    color: #fff;
+    text-decoration: none;
+    background: #181860;
+    padding: 10px 40px;
+    margin-top: 15px;
+    flex: 0 0 auto;
+}
